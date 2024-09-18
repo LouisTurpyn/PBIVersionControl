@@ -20,20 +20,29 @@
   "sections": [
     {
       "config": "{}",
-      "displayName": "Page 1",
+      "displayName": "Chart Page",
       "displayOption": 1,
       "filters": "[]",
       "height": 720.00,
       "name": "66992208152b0e8af6f4",
       "visualContainers": [
         {
-          "config": "{\"name\":\"17f228155da385ece25c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":1280,\"height\":474.2564102564103,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(AMZN.High)\"}],\"Category\":[{\"queryRef\":\"AMZN.Date\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AMZN\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"High\"}},\"Function\":0},\"Name\":\"Sum(AMZN.High)\",\"NativeReferenceName\":\"Sum of High\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Date\"},\"Name\":\"AMZN.Date\",\"NativeReferenceName\":\"Date\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Date\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "config": "{\"name\":\"17f228155da385ece25c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":1280,\"height\":474.2564102564103,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(AMZN.High)\"}],\"Category\":[{\"queryRef\":\"AMZN.Date\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AMZN\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"High\"}},\"Function\":0},\"Name\":\"Sum(AMZN.High)\",\"NativeReferenceName\":\"Sum of High\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Date\"},\"Name\":\"AMZN.Date\",\"NativeReferenceName\":\"Date\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Date\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.25}}}}}},\"selector\":{\"metadata\":\"Sum(AMZN.High)\"}}],\"lineStyles\":[{\"properties\":{\"strokeWidth\":{\"expr\":{\"Literal\":{\"Value\":\"6L\"}}},\"lineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"'dotted'\"}}},\"strokeLineJoin\":{\"expr\":{\"Literal\":{\"Value\":\"'bevel'\"}}},\"strokeTransparency\":{\"expr\":{\"Literal\":{\"Value\":\"23D\"}}},\"areaShow\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Pricing '\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
           "filters": "[]",
           "height": 474.26,
           "width": 1280.00,
           "x": 0.00,
           "y": 0.00,
           "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"7a039bbaeaedb080026f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":484,\"width\":1280,\"height\":236,\"z\":1,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"multiRowCard\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(AMZN.High)\"},{\"queryRef\":\"Sum(AMZN.Low)\"},{\"queryRef\":\"Sum(AMZN.Volume)\"},{\"queryRef\":\"AMZN.Open\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AMZN\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"High\"}},\"Function\":0},\"Name\":\"Sum(AMZN.High)\",\"NativeReferenceName\":\"Sum of High\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Low\"}},\"Function\":0},\"Name\":\"Sum(AMZN.Low)\",\"NativeReferenceName\":\"Sum of Low\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Volume\"}},\"Function\":0},\"Name\":\"Sum(AMZN.Volume)\",\"NativeReferenceName\":\"Sum of Volume\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Open\"}},\"Function\":0},\"Name\":\"AMZN.Open\",\"NativeReferenceName\":\"Sum of Open\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"High\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 236.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 484.00,
+          "z": 1.00
         }
       ],
       "width": 1280.00
